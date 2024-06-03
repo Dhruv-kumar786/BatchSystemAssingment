@@ -1,293 +1,136 @@
 @font-face {
-    font-family: 'ClashDisplay-Variable';
-    src: url('./fonts/ClashDisplay-Variable.ttf') ;
+    font-family: 'Clash Display';
+    src: url(./fonts/ClashDisplay-Variable.ttf);
     
-    
-  }
-  @font-face {
-    font-family: 'ClashDisplay-bold';
-  src: url('./fonts/ClashDisplay-Variable.ttf') ;
-  }
-  
- *{
-    margin: 0;
-    border: 0;
-    font-family: ClashDisplay-variable;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    
-    }
+}
 
-.nav-item{
+
+@font-face {
+    font-family: 'Clash DisplayBold';
+    src: url(./fonts/ClashDisplay-Bold.otf);
+    font-weight: 800;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Clash Display;
+
+    
+}
+
+ body{
+    overflow-x: hidden;
+ }
+
+.nav-item {
+    font-size: larger;
     font-weight: 500;
-    font-size: 20px;
-    
-    
+    color: black ;
 }
-  .navbar-nav .nav-link:hover{
-      color: grey !important;
+.nav-item .active {
+    color: #ff5555 !important;
+    font-weight: bolder !important;
 }
-  .active{
-    color: #FF5555 !important;
-    font-weight: 800 !important;
+
+
+
+.navbar-nav .nav-link:hover {
+    color: grey !important;
 }
-  .navbar-nav .active:hover{
-    
-    color: #E53935 !important;
+
+.navbar-nav .active:hover{
+    color: rgb(180, 7, 44) !important;
 }
+
+
+
 .navbar-collapse{
-    height: 53px;
+    height: 52px;
 }
-.Download-btn{
+.download-btn{
     height: 100%;
     width:10rem;
 }
-.heading{
-    
-    font-family:ClashDisplay-bold;
-    font-weight:700;
-    font-size:74px;
-    width: 818px;
-    height: 150px;
-    line-height: 68px;
-}
-.sub-heading{
-    font-weight: 500;
-    font-size:18px;
-    opacity: 50%;
 
+.main-heading{
+    height:100px;
+    width: 510px;
+   font-family: Clash DisplayBold; 
+   font-weight: 800 !important;
+   font-size: 50px; 
 }
-.watchvideo-btn{
+
+.content{
+    width: 80%;
+    color: black;
+    opacity: 50%;
+    font-weight: 500;
+}
+.btn{
+
+
     width: 180px;
     height: 60px;
-    border-radius: 4px !important;
-    font-weight: 500 !important;
-    background-color: white !important;
+    
+    
 }
-    
-.getstarted-btn{
-        width: 180px;
-        height: 60px;
-        border-radius: 4px !important;
-        font-weight: 500 !important;
-    
-       
+.video-btn {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    width: 180px;
+    height: 60px;
 }
 
-.bg-image{
-    background-image: url('./assets/gradiant1.svg');
-    background-repeat: no-repeat;
-    position:absolute;
-    left: 18rem;
-    top: 2rem;
-    height:100%;
-    z-index: -1;
+.video-icon {
+    margin-right: 8px; 
+}
 
-}
-.star1{
-   background-image: url(./assets/Star3.svg);
-   height: 48px;
-    width: 48px;
-    position: absolute;
-    Top:116px;
-    left: 50px;
-}
-.star2{
-    background-image: url(./assets/Star1.svg);
-    height: 64px;
-     width: 64px;
-     position: absolute;
-     top: 60px;
-     left: 88rem;
-     
- }
-.star3{
-    background-image: url(./assets/Star3.svg);
-    height: 48px;
-    width: 48px;
-    position: absolute;
-    z-index: -1;
-    Top:569px;
-    Left:260px;
-}
-.ring{
-    background-image: url(./assets/rings.svg);
-    height: 726px;
-    width: 650px;
-    position: absolute;
-    z-index: -3;
-    top: 50px;
-    left: 865px;
-    
-}
+.video-btn:hover{
+    color: grey ;
+} 
 .iphone{
-    background-image: url(./assets/iPhone-13-Pro-Front.svg);
-    background-repeat: no-repeat;
-    position: absolute;
-    height: 700px;
-    width: 520px;
-    top: 40px;
-    left: 800px;
-}
-.iphone2{
-    background-image: url(./assets/iPhone-13-Pro-Front.svg);
-    background-repeat: no-repeat;
-    position: absolute;
-    height: 700px;
-    width: 520px;
-    top: 190px;
-    left: 1046px;
-    z-index: -2;
-    
-}
-.gradiant{
-    background-image: url(./assets/gradiant2.svg);
-    background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-    position: absolute;
-    width: 600px;
-    height: 800px;
-    top: 5rem;
-    left: 56rem;
-    z-index: -4;
-}
-.iphone3{
-    background-image: url(./assets/iPhone-13-Pro-Front2.svg);
-    background-repeat: no-repeat;
-    position: absolute;
-    height: 700px;
-    width: 520px;
-    top: 120px;
-    left: 920px;
-    z-index: -1;
-    
+    scale: 2.5;
 }
 
-.star4{
-    background-image: url(./assets/Star4.svg);
-    background-repeat:no-repeat;
-    position: absolute;
-    height: 48px;
-    width: 48px;
-    top: 42rem;
-    left: 62rem;
-    
+footer a{
+    text-decoration: none;
 }
 
-@media (max-width: 844px) {
- 
-    .heading {
-        font-size: 28px;
-        width: 350px;
-       height: 80px;
-       line-height:1;
-       margin-bottom: -25px !important;
-       
-       
-    }
 
-    .sub-heading {
-        font-size: 8px;
-        font-weight: 500;
-        line-height:1;
-        width: 300px;
+@media (max-width: 600px) {
+    .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
-    .video{
-        width: 500px;
-        height: 80px;
-        scale: 0.5;
-        position: absolute;
-        left: -80px;
-        top: 270px;
+    .navbar-nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar-nav .nav-item {
+        width: 100%;
         
     }
-    .watchvideo-btn{
-        mix-blend-mode:screen;
+    .navbar-nav .nav-link {
+        width: 100%;
+        text-align: center;
     }
+    .navbar-toggler {
+        margin-right: auto;
 
-    .bg-image {
-        top: 20px;
-        left: 20px;
-        height: 100%;
-        
     }
-
-    .az{
-       
-        scale:0.5;
-        position: absolute;
-        left: -100px; 
-        top: 220px;       
-       
+    .main-heading {
+        margin-top: 8rem;
+        text-align: left;
     }
-    .iphone{
-        
-        top: 25rem;
-        position: absolute;
-        scale: 0.3;
-        left: -100px;
-        
+    .content {
+        text-align: left;
     }
-    .iphone2{
-        
-        top: 29rem;
-        position: absolute;
-        scale: 0.3;
-        left: -30px;
-        
-    }
-    .iphone3{
-        
-        top: 27rem;
-        position: absolute;
-        scale: 0.3;
-        left: -70px;
-        
-    }
-    .ring{
-        top: 25rem;
-        position: absolute;
-        scale: 0.4;
-        left: -100px;
-    }
-
-.gradiant{
-    
-    background-image: url(./assets/gradiant2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    scale: 0.4;
-    top: 24rem;
-    left: -100px;
-    z-index: -4;
+   
 }
-    /* .iphone {
-        height: 350px;
-        width: 260px;
-        top: 20px;
-    }
-
-    .iphone2 {
-        height: 350px;
-        width: 260px;
-        top: 95px;
-    }
-
-    .iphone3 {
-        height: 350px;
-        width: 260px;
-        top: 60px;
-    }
-
-    .ring {
-        height: 363px;
-        width: 325px;
-        top: 25px;
-    }
-
-    .star1, .star2, .star3, .star4, .star5 {
-        display: none;
-    } */
