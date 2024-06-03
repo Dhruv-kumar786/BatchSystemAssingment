@@ -175,4 +175,119 @@ background-position: center;
     
 }
 
+@media (max-width: 844px) {
+ 
+    .heading {
+        font-size: 28px;
+        width: 350px;
+       height: 80px;
+       line-height:1;
+       margin-bottom: -25px !important;
+       
+       
+    }
 
+    .sub-heading {
+        font-size: 8px;
+        font-weight: 500;
+        line-height:1;
+        width: 300px;
+    }
+    .video{
+        width: 500px;
+        height: 80px;
+        scale: 0.5;
+        position: absolute;
+        left: -80px;
+        top: 270px;
+        
+    }
+    .watchvideo-btn{
+        mix-blend-mode:screen;
+    }
+
+    .bg-image {
+        top: 20px;
+        left: 20px;
+        height: 100%;
+        
+    }
+
+    .az{
+       
+        scale:0.5;
+        position: absolute;
+        left: -100px; 
+        top: 220px;       
+       
+    }
+    .iphone{
+        
+        top: 25rem;
+        position: absolute;
+        scale: 0.3;
+        left: -100px;
+        
+    }
+    .iphone2{
+        
+        top: 29rem;
+        position: absolute;
+        scale: 0.3;
+        left: -30px;
+        
+    }
+    .iphone3{
+        
+        top: 27rem;
+        position: absolute;
+        scale: 0.3;
+        left: -70px;
+        
+    }
+    .ring{
+        top: 25rem;
+        position: absolute;
+        scale: 0.4;
+        left: -100px;
+    }
+
+.gradiant{
+    
+    background-image: url(./assets/gradiant2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    scale: 0.4;
+    top: 24rem;
+    left: -100px;
+    z-index: -4;
+}
+    /* .iphone {
+        height: 350px;
+        width: 260px;
+        top: 20px;
+    }
+
+    .iphone2 {
+        height: 350px;
+        width: 260px;
+        top: 95px;
+    }
+
+    .iphone3 {
+        height: 350px;
+        width: 260px;
+        top: 60px;
+    }
+
+    .ring {
+        height: 363px;
+        width: 325px;
+        top: 25px;
+    }
+
+    .star1, .star2, .star3, .star4, .star5 {
+        display: none;
+    } */
